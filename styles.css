@@ -1,0 +1,136 @@
+.ship{
+  
+  background-color:rgba(0,0,0,0.5);
+  height:450px;
+  margin-top:10%;
+}
+.seperate{
+  margin-top:1%;
+}
+html{
+  background: url("https://s.yimg.com/ny/api/res/1.2/DPokU5_VfMKsFWWPyYl3Mg--/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAwO2lsPXBsYW5l/http://media.zenfs.com/en_US/News/BGR_News/planet-earth.jpg")no-repeat center center fixed; 
+-webkit-background-size:cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+   
+}
+
+body{
+  background-color:rgba(0,0,0,0)
+}
+#message{
+  color:white;
+  border-radius : 25px;
+}
+
+
+#launchpad{
+  /*border:solid;
+  height:100%;
+  width:100%;*/
+  position:relative;
+  
+}
+
+#rocketship{
+  height:100%;
+  width: 100%;
+  position: absolute;
+}
+
+#head{
+  position:absolute;
+  left:201px;
+  top:125px;
+  width:0;
+  height:0;
+  line-height:0;
+  border:3.5em solid transparent;
+  margin-top:-1.5em;
+  border-bottom:3.4em solid  ;
+}
+#body{
+  background-color:White;
+  height: 200px;
+  border:solid;
+  width:100px;
+  left:200px;
+  top:200px;
+  position: absolute;
+}
+#fin1{
+  left:160px;
+  top:358px;
+  position: absolute;
+  width:0;
+  height:0;
+  line-height:0;
+  border:1.5em solid transparent;
+  border-right:1.5em solid ;
+  border-bottom:1.5em solid ;
+}
+#fin2{
+  position: absolute;
+  left:300px;
+  top:358px;
+  width:0;
+  height:0;
+  line-height:0;border:1.5em solid transparent;
+  border-left:1.5em solid ;
+  border-bottom:1.5em solid ;
+}
+#thruster{
+ position: absolute;
+  display:inline-block;
+  width:0;
+  height:0;line-height:0;
+  border:1.5em solid transparent;
+  border-top:1.5em solid red ;
+  top: 400px;
+  left:226px
+  
+}
+#window{
+  position: absolute;
+  border:1.5em solid ;
+  border-radius:2em;
+  left:230px;
+  top:230px;
+}
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+   -webkit-animation: flickerAnimation 1s infinite;
+   -moz-animation: flickerAnimation 1s infinite;
+   -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}
+input[type="text"]
+{
+  font-family: monospace;
+}
+
+
+
+    
+    
+    

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<link href="styles.css"></link>
+ <audio controls id="Rocket" hidden>
+  <source src="http://www.soundsnap.com/files/tmp-stream/1449952320/86/transcode/Rocket%20launch%2002_SFXBible_ss06671.mp3" type="audio/mpeg"></audio> 
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+  
+<body class="container">
+  <div class="row">
+    <div class=" col-xs-6 col-xs-offset-3">
+    <h2 class="text-center" id="message">
+      Earth needs YOU to help us send our species off into space. Correct the code to save humanity!
+    </h2>
+    </div>
+  </div>
+  
+    <div class="row seperate">
+      <div class=" col-xs-6 col-xs-offset-3">
+        <div class="input-group">
+          <input type="text" id="box" class="form-control" >
+          <span class="input-group-btn">
+          <button class="btn btn-info" id="button" type="button">Build</button>
+          </span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3">
+        <div id="launchpad" class="ship">
+          
+          <div id="rocketship">      
+            <div id="body"></div> 
+            <div class="detail-color" id="fin1"></div>
+            <div class="detail-color" id="fin2"></div>
+            <div class="animate-flicker" id="thruster"></div>
+            <div class="detail-color" id="window"></div>
+            <div class="detail-color" id=head></div>
+          </div>
+        
+        </div> 
+
+      </div>
+    </div>
+
+  
+   <audio controls id="Airwrench" hidden>
+   <source src="http://soundbible.com/mp3/Air_Wrench_Short-Lightning_McQue-2139303794.mp3" type="audio/mpeg"></audio>
+ 
+  <audio controls id="rocket" hidden>
+  <source src="http://www.soundsnap.com/files/tmp-stream/1460062680/38/transcode/lift%20off%202.mp3" type="audio/mpeg"></audio>
+  
+  <audio controls id="Wrong" hidden>
+  <source src="http://soundjax.com/reddo/47434%5EBUZZER.mp3" type="audio/mpeg"></audio> 
+ 
+    
+</body>
+</html>
