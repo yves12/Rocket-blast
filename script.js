@@ -65,8 +65,8 @@ $("#button").click(function(){
      $("#rocketship").animate({top:"-700px"},4000);
     $("#rocketship").animate({top:"0px"},4000);
       document.getElementById("rocket").play();
-      $("body").css("background", "url('https://upload.wikimedia.org/wikipedia/commons/5/58/Mars_23_aug_2003_hubble.jpg')");
-
+      $("body").css("background", "url('http://a.abcnews.go.com/images/Technology/abc_abc_potter_mars_110112_wg.jpg')");
+      $("body").css("background-repeat", "no-repeat");
     }else{
     
     levels[level].code();
