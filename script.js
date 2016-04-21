@@ -1,4 +1,5 @@
-var levels = [
+$(function() {
+  var levels = [
   {
     wrong:'$("# rocketship") .s lideD o wn (3000) ;',
     right:'$("#rocketship").slideDown(3000);',
@@ -83,3 +84,5 @@ $("#thruster").hide();
 
 
 
+
+})
