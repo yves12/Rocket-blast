@@ -41,7 +41,7 @@ $(function() {
     }
 }];
 
-var level = 0;
+var level = 4;
 
 function setlevel(level){
 
@@ -67,6 +67,7 @@ $("#button").click(function(){
       document.getElementById("rocket").play();
       $("body").css("background", "url('http://a.abcnews.go.com/images/Technology/abc_abc_potter_mars_110112_wg.jpg')");
       $("body").css("background-repeat", "no-repeat");
+      $("body").css("background","height=800px");
     }else{
     
     levels[level].code();
