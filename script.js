@@ -41,7 +41,7 @@ $(function() {
     }
 }];
 
-var level = 4;
+var level = 0;
 
 function setlevel(level){
 
@@ -65,9 +65,14 @@ $("#button").click(function(){
      $("#rocketship").animate({top:"-700px"},4000);
     $("#rocketship").animate({top:"0px"},4000);
       document.getElementById("rocket").play();
-      $("body").css("background", "url('http://a.abcnews.go.com/images/Technology/abc_abc_potter_mars_110112_wg.jpg')");
-      $("body").css("background-repeat", "no-repeat");
-      $("body").css("background","height=800px");
+      $("html").css("background", "url('http://a.abcnews.go.com/images/Technology/abc_abc_potter_mars_110112_wg.jpg')");
+      $("html").css("background-repeat", "no-repeat");
+      var size1 = $(window).height();
+      var size2 = $(window).width();
+      $("html").css({ 
+     "background-image": "url('http://a.abcnews.go.com/images/Technology/abc_abc_potter_mars_110112_wg.jpg')", 
+     "background-size" :size2.toString() + "px " + size1.toString() + "px" 
+});   
     }else{
     
     levels[level].code();
